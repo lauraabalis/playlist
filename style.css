@@ -1,0 +1,148 @@
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.row {
+  height: 100%;
+}
+
+.tracks {
+  background-image: url('resources/track.jpg');
+  background-size: 100%;
+  background-repeat: repeat-y;
+  opacity: 0.19;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/AvenirNextLTPro-Regular.otf");
+}
+
+body {
+  font-family: "Avenir", sans-serif;
+  margin: 0px;
+  height: 100%;
+}
+
+h1 {
+  color: #490064;
+  font-size: 45px;
+}
+
+#albums {
+  position: absolute;
+  top: 55px;
+  right: 475px;
+  float: right;
+  width: 100px;
+}
+
+#albums img {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+#allAlbums {
+  margin-left: 45px;
+}
+
+#allAlbums img {
+  width: 90px;
+  height: 90px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+#allAlbums img:hover {
+  cursor: pointer;
+}
+
+.btnSplash {
+  background-color: #353526;
+  color: #CCCCC9;
+  padding: 10px 30px 4px;
+  font-size: 19px;
+}
+
+.btnPlayClr {
+  background-color: #353526;
+  color: #CCCCC9;
+  padding: 10px 30px 4px;
+  font-size: 19px;
+  margin: 15px 0px 0px 60px;
+}
+
+.btnPlaySub {
+  background-color: #353526;
+  color: #CCCCC9;
+  padding: 10px 30px 4px;
+  font-size: 19px;
+  margin: 15px 0px 0px 15px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.hrzVrtCtr {
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.grey {
+  background-color: #EEEEEE;
+}
+
+.splashPageHdr {
+  width: 100vw;
+  height: 5vh;
+  border: 1px solid #000;
+  background-color: #9B9B8C;
+  margin: 0px;
+}
+
+.playPageHdr {
+  width: 100vw;
+  height: 12vh;
+  background-color: #9B9B8C;
+  margin: 0px;
+}
+
+.playPageHdrTxt {
+  color: #EFEFED;
+  font-size: 26px;
+  padding: 77px 20px 0px 40px;
+}
+
+footer {
+  left: 0px;
+  bottom: 0px;
+  height: 5vh;
+  width: 100vw;
+  background-color: #686859;
+}
+
+.footerTxt {
+  color: #EFEFED;
+  padding: 14px 0px 2px 50px;
+  font-size: 18px;
+}
+
+.box {
+  width: 1550px;
+  height: 160px;
+  border: 2.5px solid black;
+  background-color: #EEEEEE;
+  margin-top:23px;
+  margin-left: 60px;
+}
+
+.scroll {
+  width: 100vw;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
